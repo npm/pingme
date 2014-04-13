@@ -1,6 +1,6 @@
 {
   "name": "pingme",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Super simple HTTP server that can be easily pinged so that Nagios et al can know your stuff's healthy.",
   "main": "pingme.js",
   "scripts": {

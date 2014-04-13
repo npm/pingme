@@ -1,0 +1,30 @@
+{
+  "name": "pingme",
+  "version": "0.0.0",
+  "description": "Super simple HTTP server that can be easily pinged so that Nagios et al can know your stuff's healthy.",
+  "main": "pingme.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/npm/pingme"
+  },
+  "keywords": [
+    "ping",
+    "uptime",
+    "server",
+    "status",
+    "ok"
+  ],
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/pingme/issues"
+  },
+  "homepage": "https://github.com/npm/pingme",
+  "devDependencies": {
+    "server-destroy": "^1.0.0",
+    "tap": "^0.4.8"
+  }
+}

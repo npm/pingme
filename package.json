@@ -25,6 +25,6 @@
   "homepage": "https://github.com/npm/pingme",
   "devDependencies": {
     "server-destroy": "^1.0.0",
-    "tap": "^0.4.8"
+    "tap": "^1.2.0"
   }
 }

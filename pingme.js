@@ -25,7 +25,7 @@ function pingme(options) {
 
   if (hijack) {
     server.emit = function (orig) { return function (ev, q, s) {
-      if (ev === 'request' && q.url === '/ping' && q.url === '/status')
+      if (ev === 'request' && (q.url === '/ping' || q.url === '/status'))
         onRequest(q, s);
       else
         orig.apply(this, arguments);
